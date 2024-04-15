@@ -1,0 +1,295 @@
+.page{
+    margin: 0;
+}
+.welcome{
+    text-align: center!important;
+    color: #f2f2f2;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #000030;
+    clear: both;
+    background-color: #004A3C;
+    height: 40vh;
+}
+.fec{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.crs-name{
+    font-size: 3.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.crs{
+    box-sizing: border-box;
+    border-radius: 0;
+    line-height: inherit;
+    overflow: visible;
+    text-transform: none;
+    border: 3px solid white;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-weight: bold;
+    background: #000030;
+    color: white;
+    cursor: pointer;
+    padding: 15px 25px;
+    background-color: #001219;
+    margin-top: 1.15rem;
+    text-decoration: none;
+}
+.crs a{
+    text-decoration: none;
+    color: white;
+}
+.about-course{
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.abt-t-crs{
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 300;
+    align-items: center;
+    position: relative;
+    height: 74.3vw;
+    width: 81.38vw;
+    border-radius: 4.06vw 14.01vw;
+    background-color: #004A3C;
+    padding: 8.2vw 3vw 11vw 6.41vw;
+    display: flex !important;
+    flex-direction: column !important;
+    color: #7AFFA1;
+    flex-wrap: wrap !important;
+}
+.abt{
+    text-align: left;
+    color: #7AFFA1;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1.2;
+    font-family: 'Outfit', sans-serif;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 8.07vw;
+    margin: 0vw;
+    margin-bottom: 5%;
+}
+.abt-t-crs ul{
+    text-align: left;
+    color: #7AFFA1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 6.28vw;
+    display: flex;
+    gap: 1.43vw;
+    list-style-type: none;
+    font-size: 3.57vw;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+.main-page{
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
+    overflow: hidden;
+}
+#curriculum{
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background: white;
+    padding: 50px;
+}
+.outfit{
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: #000030;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 1.4rem;
+}
+.timeline{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    border-left: 4px solid #55D57A;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(37, 40, 39, 0.03);
+    color: rgba(37, 40, 39, 0.8);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    padding: 30px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    margin-left: 50px;
+    max-width: 98%;
+    font-size: 2em;
+}
+.event{
+    color: rgba(37, 40, 39, 0.8);
+    letter-spacing: 0.5px;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px dashed rgba(37, 40, 39, 0.1);
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    position: relative;
+    justify-content: space-between;
+    font-size: 3.4rem;
+}
+.week-container1{
+    color: rgba(37, 40, 39, 0.8);
+    letter-spacing: 0.5px;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    max-width: 65%;
+}
+.crs-content{
+    color: rgba(37, 40, 39, 0.8);
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.day{
+    color: rgba(37, 40, 39, 0.8);
+    letter-spacing: 0.5px;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 2.4rem;
+}
+.crs-content ul{
+    color: rgba(37, 40, 39, 0.8);
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+.crs-content ul li{
+    color: rgba(37, 40, 39, 0.8);
+    letter-spacing: 0.5px;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.crs-content ul li a{
+    letter-spacing: 0.5px;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: transparent;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000030;
+    text-decoration: underline;
+}
+ @media screen and (max-width: 768px) {
+    .page{
+        width: 100%;
+    }
+    .event{
+        font-size: 3.2rem;
+    }
+ }
