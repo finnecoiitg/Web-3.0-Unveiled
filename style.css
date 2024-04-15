@@ -244,6 +244,7 @@
     vertical-align: baseline;
     font-family: 'Outfit', sans-serif !important;
     font-size: 2.4rem;
+    margin-top: 3px;
 }
 .crs-content ul{
     color: rgba(37, 40, 39, 0.8);
