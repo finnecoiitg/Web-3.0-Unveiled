@@ -25,7 +25,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .crs-name{
-    font-size: 3.2rem;
+    font-size: 5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .crs{
@@ -77,11 +77,11 @@
     font-weight: 300;
     align-items: center;
     position: relative;
-    height: 80.3vw;
-    width: 81.38vw;
-    border-radius: 4.06vw 14.01vw;
+    /* height: 35.3vw; */
+    width: 61.38vw;
+    border-radius: 1vw 1vw;
     background-color: #004A3C;
-    padding: 8.2vw 3vw 11vw 6.41vw;
+    padding: 3vw 3vw 3vw 3vw;
     display: flex !important;
     flex-direction: column !important;
     color: #7AFFA1;
@@ -95,16 +95,16 @@
     border: 0;
     font: inherit;
     vertical-align: baseline;
-    line-height: 1.2;
+    line-height: 0.8;
     font-family: 'Outfit', sans-serif;
     display: inline-block;
     font-weight: normal;
-    font-size: 8.07vw;
+    font-size: 3vw;
     margin: 0vw;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .abt-t-crs ul{
-    text-align: left;
+    text-align: center;
     color: #7AFFA1;
     box-sizing: border-box;
     margin: 0;
@@ -114,14 +114,15 @@
     vertical-align: baseline;
     list-style: none;
     margin-top: 0;
-    margin-bottom: 1rem;
-    line-height: 6.28vw;
+    /* margin-bottom: 2%; */
+    line-height: 2.28vw;
     display: flex;
     gap: 1.43vw;
     list-style-type: none;
-    font-size: 3.57vw;
+    font-size: 1.57vw;
     padding-left: 0;
     flex-wrap: wrap;
+    font-weight: 100;
 }
 .main-page{
     color: #212529;
@@ -233,7 +234,7 @@
     margin-bottom: 8px;
 }
 .day{
-    color: rgba(37, 40, 39, 0.8);
+    color: #004A3C;
     letter-spacing: 0.5px;
     list-style: none;
     box-sizing: border-box;
@@ -286,6 +287,9 @@
     text-decoration: underline;
 }
  @media screen and (max-width: 768px) {
+    .fec{
+        font-size: 0.8rem;
+    }
     .page{
         width: 100%;
     }
@@ -293,5 +297,11 @@
         font-size: 2.9rem;
     }
     .crs-name{
-        font-size: 2.9rem;
+        font-size: 2.5rem;
+    }
+    .crs{
+        width: fit-content;
+        font-size: 1.8vh;
+    }
+
  }
